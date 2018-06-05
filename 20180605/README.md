@@ -15,6 +15,7 @@
 [java处理苹果浏览器safari无法播放视频流（Accept-Ranges）](https://blog.csdn.net/u010120886/article/details/79007001)
 
 [h5点播播放mp4视频遇到的坑,ios的h5不能播放视频等](https://blog.csdn.net/zhengbin6072/article/details/78235004)
+
 主要是后端返回视频流的问题，对于Safari来说，不是一次性请求完整个文件，一般首先会请求0-1字节获取文件总长度，然后分段请求视频数据。
 
 ### 解决方法
